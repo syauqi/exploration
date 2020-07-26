@@ -1,0 +1,58 @@
+html {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  background-color: darkviolet;
+}
+body {
+  /* mengatur besarnya body */
+  width: 900px;
+  /* 20 px itu buat atas bawah, auto itu kiri kanan. kalau dikasih auto,nanti mereka ngasih adil alias tengah */
+  margin: 20px auto;
+  /* buat ganti background-color */
+  background-color: azure;
+  /* padding itu buat ngatur besar nya konten */
+  padding: 20px 20px 20px 20px;
+  /* ini buat border y */
+  border: 5px solid black;
+}
+/* disebut rule */
+/* p itu selector */
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+/* contoh diatas merupakan element selector */
+#id-ku {
+  /* ini namanya id selector */
+}
+.class-ku {
+  /* ini namanya class selector */
+}
+input[type="text"] {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+input[type="button"] {
+  width: 120px;
+  margin-left: 35px;
+  display: block;
+}
+/* contoh diatas namanya atributte selector */
+a:hover {
+  color: red;
+}
+a[target] {
+  background-color: yellow;
+}
+img {
+  margin: 0 auto;
+  display: block;
+}
