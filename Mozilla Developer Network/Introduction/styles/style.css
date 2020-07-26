@@ -56,3 +56,6 @@ img {
   margin: 0 auto;
   display: block;
 }
+.text-image {
+  text-align: center;
+}
