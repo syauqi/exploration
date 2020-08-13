@@ -64,10 +64,15 @@ caption {
 }
 /* End Reset CSS */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #edf2f7;
 }
 
 .contact-section {
@@ -123,6 +128,23 @@ nav li {
   object-position: center;
 }
 
+.url-fixer {
+  text-decoration: none;
+  color: #777777;
+}
+
+li span {
+  background-image: linear-gradient(transparent calc(75% - 5px), #c00dff 5px);
+  background-size: 0;
+  background-repeat: no-repeat;
+  display: inline;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+li:hover span {
+  background-size: 100%;
+}
+
 nav {
   background-color: #ffffff;
   padding: 25px;
@@ -130,11 +152,19 @@ nav {
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0), 0 6.7px 5.3px rgba(0, 0, 0, 0.001),
     0 12.5px 10px rgba(0, 0, 0, 0.004), 0 22.3px 17.9px rgba(0, 0, 0, 0.01),
     0 41.8px 33.4px rgba(0, 0, 0, 0.022), 0 100px 80px rgba(0, 0, 0, 0.05);
+  top: 0;
+  z-index: 5;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav a {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   color: #222222;
 }
@@ -147,7 +177,6 @@ nav a {
 }
 
 .jumbotron-card {
-  width: 80%;
   background-color: #ffffff;
   margin: -40px auto;
   padding: 20px;
@@ -160,6 +189,63 @@ nav a {
     0 6.9px 17.9px rgba(0, 0, 0, 0.023), 0 13px 33.4px rgba(0, 0, 0, 0.041),
     0 31px 80px rgba(0, 0, 0, 0.09);
 }
+
+.article-card {
+  background-color: #ffffff;
+  box-shadow: 0 0.9px 2.2px rgba(0, 0, 0, 0.003),
+    0 2.1px 5.3px rgba(0, 0, 0, 0.007), 0 3.9px 10px rgba(0, 0, 0, 0.013),
+    0 6.9px 17.9px rgba(0, 0, 0, 0.023), 0 13px 33.4px rgba(0, 0, 0, 0.041),
+    0 31px 80px rgba(0, 0, 0, 0.09);
+
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.contact-article-card {
+  background-color: #ffffff;
+  box-shadow: 0 0.9px 2.2px rgba(0, 0, 0, 0.003),
+    0 2.1px 5.3px rgba(0, 0, 0, 0.007), 0 3.9px 10px rgba(0, 0, 0, 0.013),
+    0 6.9px 17.9px rgba(0, 0, 0, 0.023), 0 13px 33.4px rgba(0, 0, 0, 0.041),
+    0 31px 80px rgba(0, 0, 0, 0.09);
+
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.subjudul {
+  font-size: 30px;
+}
+
+.active {
+  color: #c00dff;
+}
+
+.jumbotron-card h1 {
+  font-size: 30px;
+}
+
+footer {
+  background-color: #c00dff;
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+/* .skill-list {
+  display: inline;
+  float: left;
+} */
 
 @media (min-width: 768px) {
   .container {
