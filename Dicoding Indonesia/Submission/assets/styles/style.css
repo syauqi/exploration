@@ -282,6 +282,7 @@ footer {
   padding: 20px;
   float: left;
   width: 66%;
+  /* height: 352px; */
 }
 
 .secondary-col {
@@ -297,6 +298,20 @@ footer {
   width: 25%;
   background-color: black;
   margin-bottom: 50px;
+}
+
+.secondary-col p {
+  color: white;
+}
+
+.aside-logo {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.aside-url-fixer {
+  color: white;
 }
 
 .profile-photo {
