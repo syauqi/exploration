@@ -1,0 +1,130 @@
+/* Tambahkan variable ruby */
+body {
+  min-width: 700px;
+  text-align: center;
+  font-family: "Hiragino Kaku Gothic ProN";
+  background-color: #f0f5fc;
+}
+
+header {
+  width: 100%;
+  padding: 10px 0;
+  display: inline-block;
+  background-color: #7579a3;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.profile {
+  padding: 56px 0;
+  margin: 0 auto 32px;
+  background-color: #ffffff;
+}
+
+.profile .info {
+  margin-top: 16px;
+}
+
+.profile .info p {
+  color: #2b546a;
+}
+
+.html {
+  padding: 40px 28px;
+  margin: 16px 8px;
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #1bd7cf;
+}
+
+.html img {
+  margin: 16px auto 20px;
+  display: block;
+}
+
+.html a {
+  padding: 16px 32px;
+  background-color: #ffffff;
+  border-radius: 26px;
+  display: inline-block;
+  color: #1bd7cf;
+}
+
+.html a:hover {
+  color: #ffffff;
+  background-color: #15aaa3;
+}
+
+.html h4 {
+  color: #107c78;
+}
+
+.javascript {
+  padding: 40px 28px;
+  margin: 16px 8px;
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #ffe400;
+}
+
+.javascript img {
+  margin: 16px auto 20px;
+  display: block;
+}
+
+.javascript a {
+  padding: 16px 32px;
+  background-color: #ffffff;
+  border-radius: 26px;
+  display: inline-block;
+  color: #ffe400;
+}
+
+.javascript a:hover {
+  color: #ffffff;
+  background-color: #ccb600;
+}
+
+.javascript h4 {
+  color: #998900;
+}
+
+/* Tambahkan class .ruby dengan style yang sama seperti .html dan .javascript */
+.ruby {
+  padding: 40px 28px;
+  margin: 16px 8px;
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #ff768a;
+}
+
+.ruby img {
+  margin: 16px auto 20px;
+  display: block;
+}
+
+.ruby a {
+  padding: 16px 32px;
+  background-color: #ffffff;
+  border-radius: 26px;
+  display: inline-block;
+  color: #ff768a;
+}
+
+.ruby a:hover {
+  color: #ffffff;
+  background-color: #ff435e;
+}
+
+.ruby h4 {
+  color: #ff1033;
+}
+
+footer {
+  margin: 100px 0 32px;
+  color: #2b546a;
+  font-size: 14px;
+  text-align: center;
+}
+/*# sourceMappingURL=stylesheet.css.map */
